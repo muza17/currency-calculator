@@ -359,11 +359,12 @@ body {
 }
 
 .container {
-  max-width: examplepx;
-  padding-left: examplepx;
-  padding-right: examplepx;
+  max-width: 1130px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
+  background-color: beige;
 }
 
 img {
@@ -380,5 +381,21 @@ img {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.currency {
+  padding-bottom: 80px;
+}
+
+#result {
+  width: 25%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+#result {
+  padding: 5px;
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
