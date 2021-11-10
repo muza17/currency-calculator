@@ -16,11 +16,11 @@ forma2.addEventListener("submit", function(e){
         result.textContent=sum;
         
     } else if(select.value=="yevro"){
-        sum=(Number(money.value)/usd).toFixed(2);
+        sum=(Number(money.value)/eur).toFixed(2);
         result.textContent=sum;
         
     } else{
-        sum=(Number(money.value)/usd).toFixed(2);
+        sum=(Number(money.value)/rub).toFixed(2);
         result.textContent=sum;
     }
     
